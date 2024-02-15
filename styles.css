@@ -1,0 +1,65 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Acets/hamburguer-de-carne-grelhada-em-chama-de-mesa-de-madeira-grelhada-gerada-por-ia_188544-25122.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mochiy-pop p one-regular {
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.container-buttons {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button {
+    background-color: #79cb15;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+}
+button:hover {
+    opacity: 0.8;
+    
+}
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 45px;
+    justify-content: center;
+}
+li{
+    border: 2px solid #8133ff;
+    border-radius: 5px;
+    padding: 5px;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+p {
+    color: aliceblue;
+}
+.item-price {
+    font-size: bold;
+    color: #79cb15;
+}
+
